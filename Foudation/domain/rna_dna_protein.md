@@ -1,5 +1,5 @@
-Tảng Sinh Học Phân Tử cho Tin Sinh Học
-Buổi 1 — Roadmap Applied Bioinformatics Mục tiêu: Hiểu "dòng chảy thông tin di truyền" — nền tảng bắt buộc trước khi làm bất kỳ pipeline tin sinh học nào (sequencing, alignment, gene expression...).
+###Tảng Sinh Học Phân Tử cho Tin Sinh Học
+#Buổi 1 — Roadmap Applied Bioinformatics Mục tiêu: Hiểu "dòng chảy thông tin di truyền" — nền tảng bắt buộc trước khi làm bất kỳ pipeline tin sinh học nào (sequencing, alignment, gene expression...).
 
 📖 PHẦN 1 — LÝ THUYẾT NỀN TẢNG: DNA & RNA
 1.1. DNA là gì?
