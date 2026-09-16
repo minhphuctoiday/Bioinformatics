@@ -127,7 +127,7 @@ Bài toán tổ hợp đơn giản: 4 loại base, cần mã hóa ít nhất 20 
 flowchart LR
     A["DNA<br>(Nhân tế bào)"] -->|"Phiên mã<br>Transcription"| B["mRNA<br>(Tế bào chất)"]
     B -->|"Dịch mã<br>Translation"| C["Protein<br>(Chuỗi amino acid)"]
-
+```
 
 Dòng chảy **DNA → RNA → Protein** được Francis Crick đặt tên là **Học thuyết Trung tâm của Sinh học phân tử** (Central Dogma of Molecular Biology, 1958).
 
