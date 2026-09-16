@@ -75,18 +75,18 @@ Trước khi đi vào từng phần, hãy nhìn toàn cảnh một lần. Đừn
 🎛️ *So sánh trực quan (chỉ là cách hình dung):* Nếu gene là một bài hát trong máy nghe nhạc, thì promoter là **nút Play cùng với nhãn dán tên bài**. Nút Play không phải là một phần của giai điệu, nhưng không có nó thì bài hát không bao giờ phát.
 *Còn về cơ chế sinh học thật:* promoter là một trình tự DNA có hình dạng hóa học đặc thù, khiến các protein chuyên biệt nhận ra và bám vào đúng chỗ đó.
  
-### Nó giải quyết vấn đề gì?
+### Nó giải quyết vấn đề gì? (Cơ chế)
  
-**Vấn đề 1 — Định vị.** Trong 3 tỉ base, promoter đánh dấu "gene bắt đầu từ đây, và chép theo hướng này". Nó cũng xác định **TSS** (**Transcription Start Site** — điểm bắt đầu phiên mã, tức chữ cái đầu tiên được chép vào RNA).
+**Cơ chế 1 — Định vị bắt đầu.** Trong 3 tỉ base, promoter đánh dấu "gene bắt đầu từ đây, và chép theo hướng này". Nó cũng xác định **TSS** (**Transcription Start Site** — điểm bắt đầu phiên mã, tức chữ cái đầu tiên được chép vào RNA).
  
-**Vấn đề 2 — Điều hòa (quan trọng nhất).** Mọi tế bào trong cơ thể bạn chứa **cùng một bộ DNA**. Tế bào gan và tế bào thần kinh khác nhau **không phải** vì DNA khác nhau, mà vì **chúng bật/tắt những gene khác nhau**. Promoter chính là nơi quyết định việc bật/tắt đó.
+**Cơ chế 2 — Điều hòa (quan trọng nhất).** Mọi tế bào trong cơ thể bạn chứa **cùng một bộ DNA**. Tế bào gan và tế bào thần kinh khác nhau **không phải** vì DNA khác nhau, mà vì **chúng bật/tắt những gene khác nhau**. Promoter chính là nơi quyết định việc bật/tắt đó.
  
 > 🔑 Đây là ý tưởng nền tảng của cả lĩnh vực **điều hòa biểu hiện gene** (gene regulation) — và là lý do tồn tại của các kỹ thuật ATAC-seq, ChIP-seq, và phân tích motif mà bạn sẽ gặp trong roadmap.
  
 ### Nó hoạt động thế nào?
  
 Bộ máy phiên mã không tự tìm đường. Nó cần được dẫn đến:
- 
+ **Cơ chế bắt đầu**
 1. **Yếu tố phiên mã** (**transcription factor**, viết tắt **TF**) — là **những protein chuyên đi tìm và bám vào các đoạn DNA có trình tự đặc hiệu** trong vùng promoter. Mỗi TF chỉ nhận ra một dạng trình tự ngắn nhất định (gọi là **motif** — mẫu chuỗi đặc trưng, ví dụ `TATAAA`).
 2. Các TF bám vào promoter tạo thành một "giàn giáo" protein.
 3. Giàn giáo này **tuyển mộ** (recruit) **RNA polymerase** — enzyme chép DNA thành RNA mà ta đã học buổi 1 — đến đúng vị trí TSS.
